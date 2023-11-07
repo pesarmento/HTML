@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Títulos e Paragrafos</title>
+</head>
+<body>
+    <h1>Hierarquia de Títulos</h1>
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    <hr>
+    <h1>História do Video Game</h1>
+        <h2>PlayStation</h2>
+        <h3>Play 1</h3>
+        <h3>Play 2</h3>
+        <h3>Play 3</h3>
+        <h3>Play 4</h3>
+        <h3>Play 5</h3>
+            <h2>Xbox</h2>
+                <h2>Nitendo</h2>
+                <br><br><br> <!-- isso se faz no css, proibido fazer no html -->
+    <hr>    
+
+    <h1>Símbolos e Emojis</h1>
+    &lt; <!-- menor -->
+    &gt; <!-- maior -->
+    &le; <!-- menor ou igual -->
+    &ge; <!-- maior ou igual -->
+    <br>
+    &pound; <!-- libras  -->
+    &yen;
+    &euro;
+    &copy;
+    &reg;
+    &trade;
+    <br>
+    &lowast;
+    &sum;
+    &infin;
+    &plusmn;
+    &times;
+    &oplus;
+    &delta;
+    &Delta;
+    <br>
+    <p>Existe muito mais... </p>
+    😊😁👍🤞
+    <br>
+    &#x1F6AD;
+    &#x1F52B;
+    
+    <hr>
+
+    <h1>Formatações de textos</h1>
+
+    <b>Este texto está em negrito.</b> <br>
+    <strong>Este texto está com ênfase.</strong><br>
+    <i>Este texto está em itálico.</i><br>
+    <em>Ênfase. é parecido com o itálico. </em><br>
+    Podemos também colocar o nosso texto como <mark>texto marcado</mark> (marca texto)
+    <br>
+    Podemos também colocar o nosso texto como <mark style="background-color: #d87ce4;">texto marcado</mark> (marca texto)
+    <br>
+    <big>Texto Grande</big><br>
+    <small>Texto pequeno</small>
+    <br>
+    <del>O texto está como excluído</del>para indicar que ele deve ser lido, mas não considerado.
+    <br>
+    <ins>Texto foi inserido</ins> para indicar que ele foi adicionado depois. <br>
+    Exite também o <u>sublinado</u> com a tag u.
+    <br>
+    <em><strong>Esse texto esta em negrito e italico</strong></em>
+    <br>
+    H<sub>2</sub>O
+    X<sup>2</sup>
+    <br>
+    <p>
+        Este comando <code>document.getElementById('teste')</code> é escrito em JavaScript.
+    </p>
+    <p>
+        <pre>
+            <code>
+            var n = prompt("Digite um numero");
+                var total=n/2;
+                if(n%2 == 0){
+                alert("Par");
+                }else{
+                alert("Impar");
+            }
+                alert(total);
+        </code>
+    </pre>
+    <hr>
+    <pre>
+    Olá!
+    tudo bem?
+
+    Estou bem também
+    Tchau
+    </pre>
+    <hr>
+    <h1>Citações</h1>
+
+    <p>
+        Galileu disse: <q>A matemática é o alfabeto com o qual Deus escreveu o universo</q>
+    </p>
+    <p>Segundo Aristóteles, em seu livro:</p>
+    <blockquote> <cite="https://mat.absolutamente.net">
+        As ciências matemáticas exibem de forma particular ordem, simetria e limitação, e estas são as maiores formas de beleza.
+    </blockquote>
+    <p>
+        Estou fazendo cursos técnico do Senac Tatuapé, neste momento estou aprendendo <abbr title="Hypertext Markup Language">HTML5</abbr> 
+        e <abbr title="Cascating Style Sheets">CSS3</abbr>
+    </p>
+    <br>
+    <hr>
+    <!-- Cenas para os proximos capitulos -->
+    <h1>Listas ordenadas e ordenadas</h1>
+
+    <h2>Listas Ordenadas</h2>
+    <ol>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+    <ol type="I" start="10">
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+    </ol>
+    <hr>
+    <h2>Lista NÃO Ordenada</h2>
+        <!-- ul = bolinhas -->
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Açucar</li>
+        <li>Manteiga</li>
+    </ul>
+    <!-- tipos de bolinhas circle, square, disc -->
+    <ul type ="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Café</li>
+        <li>Açucar</li>
+        <li>Manteiga</li>
+    </ul>
+    
+    <ul>
+        <li>Excel
+            <ul>
+                <li>Excel Básico</li>
+                <li>Excel Avançado</li>
+            </ul>
+
+        </li>
+    </ul>
+    <li>
+        Web
+        <ol>
+            <li>HTML5</li>
+            <li>CSS3</li>
+        </ol>
+    </li>
+    <ol>
+        <li>PlayStation</li>
+        <ul>
+            <li>Play 1</li>
+            <li>Play 2</li>
+        </ul>
+        <li>Xbox</li>
+        <ul>
+            <li>Xbox One</li>
+            <li>Xbox X series</li>
+        </ul>
+    </ol>
+    <hr>
+    <h2>Lista de Definição</h2>
+    <dl><!--dl = definição -->
+        <dt><strong>Café da manhã</strong></dt> <!--dt = termo -->
+        <dd><i>O café da manhã é a refeição mais importante do dia</i></dd> <!--dd = definição -->
+        <dt><strong>Almoço</strong></dt>
+        <dd><i>No almoço o nosso prato tem que ser o mais colorido possível</i></dd>
+        <dt><strong>Jantar</strong></dt>
+        <dd><i>Se possível comida leve e saudável</i></dd>
+    </dl>
+    <hr>
+     <h1>Link</h1>
+     <a href="index.html">Hello Word</a>
+     <a href="https://github.com/Luizynhoo?tab=repositories" target="_blank">Meu GitHub</a>
+     <hr>
+     <h1>Tabela</h1>
+</body>
+</html>
