@@ -29,8 +29,11 @@ Cores:
     margin: 0;
     padding: 0;
     border: 0;
-}
 
+}
+html{
+    scroll-behavior: smooth; /*subida mouse suave*/
+}
 body {
     font-family: var(--fonte-texto);
     font-size: 1.2em;
@@ -77,6 +80,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.flex5{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.flex6{
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .card {
@@ -130,7 +142,7 @@ label {
 
 nav ul {
     list-style: none;
-    background: var(--cor2);
+    background: var(--cor3);
     height: 100vh;
     position: fixed;
     top: 60px;
@@ -333,6 +345,12 @@ footer{
         width: 560px;
         height: 315px;
     }
+    /* Rodape*/
+    .flex5{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 /*Tablet Portatil*/
@@ -444,5 +462,18 @@ footer{
 
     .qrcode {
         display: inline;
+    }
+    /*RODAPE*/
+    .icone_local{
+        display: inline;
+    }
+    .icone_mapa{
+        display: none;
+    }
+    .google_maps{
+        display: inline;
+    }
+    .flex6{
+        flex-direction: row-reverse;
     }
 }
